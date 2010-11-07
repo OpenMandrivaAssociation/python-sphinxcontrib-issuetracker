@@ -13,9 +13,9 @@ Group:		Development/Python
 Url:		http://packages.python.org/sphinxcontrib-issuetracker
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
-Requires:	python-sphinx >= 1.0
+Requires:	python-sphinx >= 1.0, python-lxml
 BuildRequires:	python-devel, python-setuptools
-BuildRequires:	python-sphinx >= 1.0
+BuildRequires:	python-sphinx >= 1.0, python-lxml
 
 %description
 This Sphinx 1.0 extension parses textual issue references like "#10" 
