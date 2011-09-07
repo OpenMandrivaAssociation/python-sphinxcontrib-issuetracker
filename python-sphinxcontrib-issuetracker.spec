@@ -1,6 +1,6 @@
 %define	module	sphinxcontrib-issuetracker
 %define name	python-%{module}
-%define version	0.7.2
+%define version	0.9
 %define release %mkrel 1
 
 Summary:	Sphinx integration with different issuetrackers
@@ -8,9 +8,6 @@ Name:		%{name}
 Version:	%{version}
 Release:	%{release}
 Source0:	%{module}-%{version}.tar.gz
-Source1:	objects-docs.inv
-Source2:	objects-sphinx.inv
-Patch0:		local-intersphinx-mapping.patch
 License:	BSD
 Group:		Development/Python
 Url:		http://packages.python.org/sphinxcontrib-issuetracker
@@ -26,9 +23,6 @@ and turns them into an issue tracker.
 
 %prep
 %setup -q -n %{module}-%{version}
-%patch0 -p0
-cp %SOURCE1 doc/
-cp %SOURCE2 doc/
 
 %install
 %__rm -rf %{buildroot}
