@@ -1,7 +1,7 @@
 %define	module	sphinxcontrib-issuetracker
 %define name	python-%{module}
 %define version	0.9
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary:	Sphinx integration with different issuetrackers
 Name:		%{name}
