@@ -1,12 +1,12 @@
 %define	module	sphinxcontrib-issuetracker
 %define name	python-%{module}
 %define version	0.9
-%define release %mkrel 2
+%define release 3
 
 Summary:	Sphinx integration with different issuetrackers
 Name:		python-%{module}
 Version:	0.9
-Release:	3
+Release:	4
 Source0:	%{module}-%{version}.tar.gz
 License:	BSD
 Group:		Development/Python
