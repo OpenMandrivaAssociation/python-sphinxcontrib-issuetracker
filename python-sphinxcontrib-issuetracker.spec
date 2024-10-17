@@ -10,7 +10,7 @@ Release:	4
 Source0:	%{module}-%{version}.tar.gz
 License:	BSD
 Group:		Development/Python
-Url:		http://packages.python.org/sphinxcontrib-issuetracker
+Url:		https://packages.python.org/sphinxcontrib-issuetracker
 BuildArch:	noarch
 Requires:	python-sphinx >= 1.0
 Requires:   python-lxml
