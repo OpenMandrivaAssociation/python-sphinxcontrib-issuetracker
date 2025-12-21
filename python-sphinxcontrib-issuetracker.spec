@@ -14,6 +14,7 @@ Url:		https://packages.python.org/sphinxcontrib-issuetracker
 BuildArch:	noarch
 Requires:	python-sphinx >= 1.0
 Requires:   python-lxml
+BuildRequires:	make
 BuildRequires:	python-devel
 BuildRequires:  python-setuptools
 BuildRequires:	python-sphinx >= 1.0
